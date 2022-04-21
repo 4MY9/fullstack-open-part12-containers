@@ -1,0 +1,16 @@
+docker exec -it todo-backend-mongo-1 bash
+root@48f067e7364f:/# mongo -u root -p example
+> show dbs
+> use the_database
+> show collections
+> db.todos.find({})
+> db.todos.insertOne( { "text" : "Increase the number of tools in my toolbelt", "done" : false } )
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("6256c2cc0af94bef4e3b86ff")
+}
+> db.todos.find({})
+{ "_id" : ObjectId("6256bdb158eacb6931d61422"), "text" : "Write code", "done" : true }
+{ "_id" : ObjectId("6256bdb158eacb6931d61423"), "text" : "Learn about containers", "done" : false }
+{ "_id" : ObjectId("6256c2cc0af94bef4e3b86ff"), "text" : "Increase the number of tools in my toolbelt", "done" : false }
+>docker commit

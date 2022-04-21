@@ -1,0 +1,12 @@
+docker container run hello-world
+docker run -it ubuntu bash
+root@dccbbc71ba8f:/# cd usr
+root@dccbbc71ba8f:/usr# cd src
+root@dccbbc71ba8f:/usr/src# mkdir app
+root@dccbbc71ba8f:/usr/src# ls
+app
+root@dccbbc71ba8f:/usr/src# cd app
+root@dccbbc71ba8f:/usr/src/app# touch index.js
+root@dccbbc71ba8f:/usr/src/app# ls
+index.js
+root@dccbbc71ba8f:/usr/src/app# exit

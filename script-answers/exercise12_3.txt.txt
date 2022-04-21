@@ -1,0 +1,5 @@
+root@dccbbc71ba8f:/# nano /usr/src/app/index.js
+console.log('Hello World')
+^X
+root@dccbbc71ba8f:/# cat /usr/src/app/index.js
+console.log('Hello World')

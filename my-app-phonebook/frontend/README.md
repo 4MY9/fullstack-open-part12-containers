@@ -1,0 +1,1 @@
+Containerized development environment and production setup created to the phonebook app as a part of Fullstack open 2022 Part 12 Containers. 
